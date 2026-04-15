@@ -1,0 +1,3080 @@
+[
+    [
+        "NAME",
+        "B19013_001E",
+        "B25070_001E",
+        "B08303_001E",
+        "state",
+        "county",
+        "tract"
+    ],
+    [
+        "Census Tract 2101.01; St. Louis County; Missouri",
+        "68775",
+        "145",
+        "437",
+        "29",
+        "189",
+        "210101"
+    ],
+    [
+        "Census Tract 2101.02; St. Louis County; Missouri",
+        "54718",
+        "758",
+        "1176",
+        "29",
+        "189",
+        "210102"
+    ],
+    [
+        "Census Tract 2102; St. Louis County; Missouri",
+        "35208",
+        "1325",
+        "2050",
+        "29",
+        "189",
+        "210200"
+    ],
+    [
+        "Census Tract 2103; St. Louis County; Missouri",
+        "52491",
+        "768",
+        "1418",
+        "29",
+        "189",
+        "210300"
+    ],
+    [
+        "Census Tract 2104; St. Louis County; Missouri",
+        "44066",
+        "964",
+        "1341",
+        "29",
+        "189",
+        "210400"
+    ],
+    [
+        "Census Tract 2105.01; St. Louis County; Missouri",
+        "39850",
+        "442",
+        "1214",
+        "29",
+        "189",
+        "210501"
+    ],
+    [
+        "Census Tract 2105.02; St. Louis County; Missouri",
+        "47308",
+        "474",
+        "856",
+        "29",
+        "189",
+        "210502"
+    ],
+    [
+        "Census Tract 2106; St. Louis County; Missouri",
+        "44264",
+        "1414",
+        "1844",
+        "29",
+        "189",
+        "210600"
+    ],
+    [
+        "Census Tract 2107.02; St. Louis County; Missouri",
+        "44116",
+        "883",
+        "2690",
+        "29",
+        "189",
+        "210702"
+    ],
+    [
+        "Census Tract 2107.03; St. Louis County; Missouri",
+        "61059",
+        "693",
+        "1742",
+        "29",
+        "189",
+        "210703"
+    ],
+    [
+        "Census Tract 2107.04; St. Louis County; Missouri",
+        "42417",
+        "1267",
+        "1742",
+        "29",
+        "189",
+        "210704"
+    ],
+    [
+        "Census Tract 2108.03; St. Louis County; Missouri",
+        "55682",
+        "292",
+        "1093",
+        "29",
+        "189",
+        "210803"
+    ],
+    [
+        "Census Tract 2108.05; St. Louis County; Missouri",
+        "76349",
+        "1088",
+        "3053",
+        "29",
+        "189",
+        "210805"
+    ],
+    [
+        "Census Tract 2108.06; St. Louis County; Missouri",
+        "68640",
+        "435",
+        "2147",
+        "29",
+        "189",
+        "210806"
+    ],
+    [
+        "Census Tract 2108.07; St. Louis County; Missouri",
+        "72673",
+        "490",
+        "1623",
+        "29",
+        "189",
+        "210807"
+    ],
+    [
+        "Census Tract 2108.08; St. Louis County; Missouri",
+        "90135",
+        "10",
+        "1266",
+        "29",
+        "189",
+        "210808"
+    ],
+    [
+        "Census Tract 2109.12; St. Louis County; Missouri",
+        "100055",
+        "304",
+        "2912",
+        "29",
+        "189",
+        "210912"
+    ],
+    [
+        "Census Tract 2109.21; St. Louis County; Missouri",
+        "95703",
+        "260",
+        "2315",
+        "29",
+        "189",
+        "210921"
+    ],
+    [
+        "Census Tract 2109.23; St. Louis County; Missouri",
+        "66286",
+        "502",
+        "2423",
+        "29",
+        "189",
+        "210923"
+    ],
+    [
+        "Census Tract 2109.24; St. Louis County; Missouri",
+        "72041",
+        "560",
+        "1636",
+        "29",
+        "189",
+        "210924"
+    ],
+    [
+        "Census Tract 2109.25; St. Louis County; Missouri",
+        "60212",
+        "741",
+        "2396",
+        "29",
+        "189",
+        "210925"
+    ],
+    [
+        "Census Tract 2109.26; St. Louis County; Missouri",
+        "73188",
+        "317",
+        "1395",
+        "29",
+        "189",
+        "210926"
+    ],
+    [
+        "Census Tract 2109.27; St. Louis County; Missouri",
+        "133914",
+        "38",
+        "1898",
+        "29",
+        "189",
+        "210927"
+    ],
+    [
+        "Census Tract 2109.28; St. Louis County; Missouri",
+        "108620",
+        "297",
+        "2152",
+        "29",
+        "189",
+        "210928"
+    ],
+    [
+        "Census Tract 2110.01; St. Louis County; Missouri",
+        "83529",
+        "332",
+        "2328",
+        "29",
+        "189",
+        "211001"
+    ],
+    [
+        "Census Tract 2110.02; St. Louis County; Missouri",
+        "58606",
+        "371",
+        "1371",
+        "29",
+        "189",
+        "211002"
+    ],
+    [
+        "Census Tract 2111.01; St. Louis County; Missouri",
+        "67294",
+        "1492",
+        "3823",
+        "29",
+        "189",
+        "211101"
+    ],
+    [
+        "Census Tract 2111.02; St. Louis County; Missouri",
+        "41429",
+        "1131",
+        "2318",
+        "29",
+        "189",
+        "211102"
+    ],
+    [
+        "Census Tract 2112.01; St. Louis County; Missouri",
+        "35969",
+        "1551",
+        "2232",
+        "29",
+        "189",
+        "211201"
+    ],
+    [
+        "Census Tract 2112.02; St. Louis County; Missouri",
+        "70585",
+        "306",
+        "1730",
+        "29",
+        "189",
+        "211202"
+    ],
+    [
+        "Census Tract 2113.01; St. Louis County; Missouri",
+        "67491",
+        "716",
+        "2926",
+        "29",
+        "189",
+        "211301"
+    ],
+    [
+        "Census Tract 2113.31; St. Louis County; Missouri",
+        "70294",
+        "634",
+        "2532",
+        "29",
+        "189",
+        "211331"
+    ],
+    [
+        "Census Tract 2113.32; St. Louis County; Missouri",
+        "66366",
+        "614",
+        "2794",
+        "29",
+        "189",
+        "211332"
+    ],
+    [
+        "Census Tract 2113.33; St. Louis County; Missouri",
+        "65000",
+        "955",
+        "2783",
+        "29",
+        "189",
+        "211333"
+    ],
+    [
+        "Census Tract 2113.34; St. Louis County; Missouri",
+        "68625",
+        "539",
+        "1629",
+        "29",
+        "189",
+        "211334"
+    ],
+    [
+        "Census Tract 2114.01; St. Louis County; Missouri",
+        "49262",
+        "1275",
+        "2244",
+        "29",
+        "189",
+        "211401"
+    ],
+    [
+        "Census Tract 2114.02; St. Louis County; Missouri",
+        "51632",
+        "814",
+        "1291",
+        "29",
+        "189",
+        "211402"
+    ],
+    [
+        "Census Tract 2115; St. Louis County; Missouri",
+        "41217",
+        "651",
+        "1142",
+        "29",
+        "189",
+        "211500"
+    ],
+    [
+        "Census Tract 2116; St. Louis County; Missouri",
+        "49534",
+        "787",
+        "1963",
+        "29",
+        "189",
+        "211600"
+    ],
+    [
+        "Census Tract 2117; St. Louis County; Missouri",
+        "58438",
+        "691",
+        "1390",
+        "29",
+        "189",
+        "211700"
+    ],
+    [
+        "Census Tract 2118.01; St. Louis County; Missouri",
+        "45202",
+        "684",
+        "1280",
+        "29",
+        "189",
+        "211801"
+    ],
+    [
+        "Census Tract 2118.02; St. Louis County; Missouri",
+        "56141",
+        "614",
+        "1610",
+        "29",
+        "189",
+        "211802"
+    ],
+    [
+        "Census Tract 2119; St. Louis County; Missouri",
+        "24699",
+        "1606",
+        "1340",
+        "29",
+        "189",
+        "211900"
+    ],
+    [
+        "Census Tract 2120.02; St. Louis County; Missouri",
+        "30486",
+        "1299",
+        "1291",
+        "29",
+        "189",
+        "212002"
+    ],
+    [
+        "Census Tract 2120.03; St. Louis County; Missouri",
+        "23994",
+        "1085",
+        "1014",
+        "29",
+        "189",
+        "212003"
+    ],
+    [
+        "Census Tract 2120.04; St. Louis County; Missouri",
+        "31063",
+        "644",
+        "1211",
+        "29",
+        "189",
+        "212004"
+    ],
+    [
+        "Census Tract 2121.01; St. Louis County; Missouri",
+        "38214",
+        "943",
+        "1755",
+        "29",
+        "189",
+        "212101"
+    ],
+    [
+        "Census Tract 2121.02; St. Louis County; Missouri",
+        "28635",
+        "730",
+        "1071",
+        "29",
+        "189",
+        "212102"
+    ],
+    [
+        "Census Tract 2122.01; St. Louis County; Missouri",
+        "38838",
+        "489",
+        "1090",
+        "29",
+        "189",
+        "212201"
+    ],
+    [
+        "Census Tract 2122.02; St. Louis County; Missouri",
+        "25084",
+        "661",
+        "564",
+        "29",
+        "189",
+        "212202"
+    ],
+    [
+        "Census Tract 2123; St. Louis County; Missouri",
+        "48146",
+        "1621",
+        "2524",
+        "29",
+        "189",
+        "212300"
+    ],
+    [
+        "Census Tract 2124; St. Louis County; Missouri",
+        "47527",
+        "376",
+        "991",
+        "29",
+        "189",
+        "212400"
+    ],
+    [
+        "Census Tract 2125; St. Louis County; Missouri",
+        "50865",
+        "982",
+        "1706",
+        "29",
+        "189",
+        "212500"
+    ],
+    [
+        "Census Tract 2126; St. Louis County; Missouri",
+        "63209",
+        "633",
+        "1682",
+        "29",
+        "189",
+        "212600"
+    ],
+    [
+        "Census Tract 2127.01; St. Louis County; Missouri",
+        "39078",
+        "593",
+        "1344",
+        "29",
+        "189",
+        "212701"
+    ],
+    [
+        "Census Tract 2127.02; St. Louis County; Missouri",
+        "43462",
+        "438",
+        "685",
+        "29",
+        "189",
+        "212702"
+    ],
+    [
+        "Census Tract 2131.02; St. Louis County; Missouri",
+        "70064",
+        "29",
+        "215",
+        "29",
+        "189",
+        "213102"
+    ],
+    [
+        "Census Tract 2131.03; St. Louis County; Missouri",
+        "87991",
+        "476",
+        "1741",
+        "29",
+        "189",
+        "213103"
+    ],
+    [
+        "Census Tract 2131.04; St. Louis County; Missouri",
+        "32292",
+        "434",
+        "443",
+        "29",
+        "189",
+        "213104"
+    ],
+    [
+        "Census Tract 2132.02; St. Louis County; Missouri",
+        "95243",
+        "747",
+        "3319",
+        "29",
+        "189",
+        "213202"
+    ],
+    [
+        "Census Tract 2132.03; St. Louis County; Missouri",
+        "96621",
+        "133",
+        "1530",
+        "29",
+        "189",
+        "213203"
+    ],
+    [
+        "Census Tract 2132.04; St. Louis County; Missouri",
+        "53640",
+        "813",
+        "1669",
+        "29",
+        "189",
+        "213204"
+    ],
+    [
+        "Census Tract 2133.01; St. Louis County; Missouri",
+        "42927",
+        "986",
+        "1864",
+        "29",
+        "189",
+        "213301"
+    ],
+    [
+        "Census Tract 2133.02; St. Louis County; Missouri",
+        "43852",
+        "1067",
+        "1863",
+        "29",
+        "189",
+        "213302"
+    ],
+    [
+        "Census Tract 2134.01; St. Louis County; Missouri",
+        "46676",
+        "666",
+        "1844",
+        "29",
+        "189",
+        "213401"
+    ],
+    [
+        "Census Tract 2134.02; St. Louis County; Missouri",
+        "43750",
+        "237",
+        "766",
+        "29",
+        "189",
+        "213402"
+    ],
+    [
+        "Census Tract 2135; St. Louis County; Missouri",
+        "49486",
+        "1078",
+        "2434",
+        "29",
+        "189",
+        "213500"
+    ],
+    [
+        "Census Tract 2136; St. Louis County; Missouri",
+        "33995",
+        "1207",
+        "1351",
+        "29",
+        "189",
+        "213600"
+    ],
+    [
+        "Census Tract 2137.01; St. Louis County; Missouri",
+        "27140",
+        "374",
+        "385",
+        "29",
+        "189",
+        "213701"
+    ],
+    [
+        "Census Tract 2137.02; St. Louis County; Missouri",
+        "38600",
+        "587",
+        "1393",
+        "29",
+        "189",
+        "213702"
+    ],
+    [
+        "Census Tract 2138; St. Louis County; Missouri",
+        "40205",
+        "864",
+        "1817",
+        "29",
+        "189",
+        "213800"
+    ],
+    [
+        "Census Tract 2139; St. Louis County; Missouri",
+        "35833",
+        "375",
+        "741",
+        "29",
+        "189",
+        "213900"
+    ],
+    [
+        "Census Tract 2141; St. Louis County; Missouri",
+        "30152",
+        "266",
+        "504",
+        "29",
+        "189",
+        "214100"
+    ],
+    [
+        "Census Tract 2142; St. Louis County; Missouri",
+        "38061",
+        "784",
+        "1513",
+        "29",
+        "189",
+        "214200"
+    ],
+    [
+        "Census Tract 2143; St. Louis County; Missouri",
+        "41171",
+        "964",
+        "1476",
+        "29",
+        "189",
+        "214300"
+    ],
+    [
+        "Census Tract 2144; St. Louis County; Missouri",
+        "51835",
+        "813",
+        "2040",
+        "29",
+        "189",
+        "214400"
+    ],
+    [
+        "Census Tract 2145; St. Louis County; Missouri",
+        "55216",
+        "535",
+        "1203",
+        "29",
+        "189",
+        "214500"
+    ],
+    [
+        "Census Tract 2146.01; St. Louis County; Missouri",
+        "46163",
+        "544",
+        "1559",
+        "29",
+        "189",
+        "214601"
+    ],
+    [
+        "Census Tract 2146.02; St. Louis County; Missouri",
+        "53355",
+        "584",
+        "1836",
+        "29",
+        "189",
+        "214602"
+    ],
+    [
+        "Census Tract 2147; St. Louis County; Missouri",
+        "54792",
+        "1250",
+        "3712",
+        "29",
+        "189",
+        "214700"
+    ],
+    [
+        "Census Tract 2148; St. Louis County; Missouri",
+        "62883",
+        "870",
+        "2420",
+        "29",
+        "189",
+        "214800"
+    ],
+    [
+        "Census Tract 2149.01; St. Louis County; Missouri",
+        "46667",
+        "742",
+        "1406",
+        "29",
+        "189",
+        "214901"
+    ],
+    [
+        "Census Tract 2149.02; St. Louis County; Missouri",
+        "56071",
+        "765",
+        "1391",
+        "29",
+        "189",
+        "214902"
+    ],
+    [
+        "Census Tract 2150.01; St. Louis County; Missouri",
+        "85678",
+        "814",
+        "1268",
+        "29",
+        "189",
+        "215001"
+    ],
+    [
+        "Census Tract 2150.03; St. Louis County; Missouri",
+        "95733",
+        "249",
+        "1888",
+        "29",
+        "189",
+        "215003"
+    ],
+    [
+        "Census Tract 2150.04; St. Louis County; Missouri",
+        "66592",
+        "1011",
+        "1471",
+        "29",
+        "189",
+        "215004"
+    ],
+    [
+        "Census Tract 2150.05; St. Louis County; Missouri",
+        "86138",
+        "1158",
+        "2651",
+        "29",
+        "189",
+        "215005"
+    ],
+    [
+        "Census Tract 2151.02; St. Louis County; Missouri",
+        "72318",
+        "1331",
+        "2279",
+        "29",
+        "189",
+        "215102"
+    ],
+    [
+        "Census Tract 2151.03; St. Louis County; Missouri",
+        "105508",
+        "272",
+        "898",
+        "29",
+        "189",
+        "215103"
+    ],
+    [
+        "Census Tract 2151.05; St. Louis County; Missouri",
+        "76844",
+        "398",
+        "1073",
+        "29",
+        "189",
+        "215105"
+    ],
+    [
+        "Census Tract 2151.41; St. Louis County; Missouri",
+        "88087",
+        "111",
+        "1712",
+        "29",
+        "189",
+        "215141"
+    ],
+    [
+        "Census Tract 2151.43; St. Louis County; Missouri",
+        "86250",
+        "152",
+        "1094",
+        "29",
+        "189",
+        "215143"
+    ],
+    [
+        "Census Tract 2151.44; St. Louis County; Missouri",
+        "79650",
+        "574",
+        "2980",
+        "29",
+        "189",
+        "215144"
+    ],
+    [
+        "Census Tract 2151.45; St. Louis County; Missouri",
+        "72795",
+        "1316",
+        "2336",
+        "29",
+        "189",
+        "215145"
+    ],
+    [
+        "Census Tract 2151.46; St. Louis County; Missouri",
+        "83068",
+        "1188",
+        "1372",
+        "29",
+        "189",
+        "215146"
+    ],
+    [
+        "Census Tract 2152.01; St. Louis County; Missouri",
+        "123566",
+        "1178",
+        "2862",
+        "29",
+        "189",
+        "215201"
+    ],
+    [
+        "Census Tract 2152.31; St. Louis County; Missouri",
+        "124756",
+        "423",
+        "1986",
+        "29",
+        "189",
+        "215231"
+    ],
+    [
+        "Census Tract 2152.33; St. Louis County; Missouri",
+        "116402",
+        "565",
+        "2343",
+        "29",
+        "189",
+        "215233"
+    ],
+    [
+        "Census Tract 2152.34; St. Louis County; Missouri",
+        "198750",
+        "0",
+        "446",
+        "29",
+        "189",
+        "215234"
+    ],
+    [
+        "Census Tract 2152.35; St. Louis County; Missouri",
+        "138667",
+        "227",
+        "1503",
+        "29",
+        "189",
+        "215235"
+    ],
+    [
+        "Census Tract 2152.36; St. Louis County; Missouri",
+        "127000",
+        "81",
+        "923",
+        "29",
+        "189",
+        "215236"
+    ],
+    [
+        "Census Tract 2153.01; St. Louis County; Missouri",
+        "116705",
+        "387",
+        "1620",
+        "29",
+        "189",
+        "215301"
+    ],
+    [
+        "Census Tract 2153.02; St. Louis County; Missouri",
+        "189808",
+        "31",
+        "1063",
+        "29",
+        "189",
+        "215302"
+    ],
+    [
+        "Census Tract 2154; St. Louis County; Missouri",
+        "250001",
+        "123",
+        "2441",
+        "29",
+        "189",
+        "215400"
+    ],
+    [
+        "Census Tract 2155; St. Louis County; Missouri",
+        "141150",
+        "69",
+        "1677",
+        "29",
+        "189",
+        "215500"
+    ],
+    [
+        "Census Tract 2156; St. Louis County; Missouri",
+        "78231",
+        "1173",
+        "1991",
+        "29",
+        "189",
+        "215600"
+    ],
+    [
+        "Census Tract 2157; St. Louis County; Missouri",
+        "58707",
+        "972",
+        "2715",
+        "29",
+        "189",
+        "215700"
+    ],
+    [
+        "Census Tract 2158.01; St. Louis County; Missouri",
+        "164420",
+        "177",
+        "1893",
+        "29",
+        "189",
+        "215801"
+    ],
+    [
+        "Census Tract 2158.02; St. Louis County; Missouri",
+        "77361",
+        "893",
+        "976",
+        "29",
+        "189",
+        "215802"
+    ],
+    [
+        "Census Tract 2158.03; St. Louis County; Missouri",
+        "68725",
+        "1329",
+        "1151",
+        "29",
+        "189",
+        "215803"
+    ],
+    [
+        "Census Tract 2159.01; St. Louis County; Missouri",
+        "62588",
+        "424",
+        "1402",
+        "29",
+        "189",
+        "215901"
+    ],
+    [
+        "Census Tract 2159.02; St. Louis County; Missouri",
+        "52307",
+        "453",
+        "1394",
+        "29",
+        "189",
+        "215902"
+    ],
+    [
+        "Census Tract 2160; St. Louis County; Missouri",
+        "49154",
+        "297",
+        "499",
+        "29",
+        "189",
+        "216000"
+    ],
+    [
+        "Census Tract 2161.01; St. Louis County; Missouri",
+        "34216",
+        "1016",
+        "992",
+        "29",
+        "189",
+        "216101"
+    ],
+    [
+        "Census Tract 2161.02; St. Louis County; Missouri",
+        "54968",
+        "839",
+        "1324",
+        "29",
+        "189",
+        "216102"
+    ],
+    [
+        "Census Tract 2162.01; St. Louis County; Missouri",
+        "120833",
+        "415",
+        "1924",
+        "29",
+        "189",
+        "216201"
+    ],
+    [
+        "Census Tract 2162.02; St. Louis County; Missouri",
+        "111868",
+        "631",
+        "1574",
+        "29",
+        "189",
+        "216202"
+    ],
+    [
+        "Census Tract 2163; St. Louis County; Missouri",
+        "91458",
+        "643",
+        "2491",
+        "29",
+        "189",
+        "216300"
+    ],
+    [
+        "Census Tract 2164.01; St. Louis County; Missouri",
+        "153611",
+        "304",
+        "935",
+        "29",
+        "189",
+        "216401"
+    ],
+    [
+        "Census Tract 2164.02; St. Louis County; Missouri",
+        "106859",
+        "724",
+        "1140",
+        "29",
+        "189",
+        "216402"
+    ],
+    [
+        "Census Tract 2165; St. Louis County; Missouri",
+        "141333",
+        "977",
+        "1719",
+        "29",
+        "189",
+        "216500"
+    ],
+    [
+        "Census Tract 2166; St. Louis County; Missouri",
+        "152321",
+        "483",
+        "1182",
+        "29",
+        "189",
+        "216600"
+    ],
+    [
+        "Census Tract 2167; St. Louis County; Missouri",
+        "83000",
+        "913",
+        "1927",
+        "29",
+        "189",
+        "216700"
+    ],
+    [
+        "Census Tract 2168; St. Louis County; Missouri",
+        "78106",
+        "720",
+        "1355",
+        "29",
+        "189",
+        "216800"
+    ],
+    [
+        "Census Tract 2169; St. Louis County; Missouri",
+        "44490",
+        "957",
+        "1322",
+        "29",
+        "189",
+        "216900"
+    ],
+    [
+        "Census Tract 2170; St. Louis County; Missouri",
+        "65074",
+        "983",
+        "2280",
+        "29",
+        "189",
+        "217000"
+    ],
+    [
+        "Census Tract 2172; St. Louis County; Missouri",
+        "59286",
+        "545",
+        "1155",
+        "29",
+        "189",
+        "217200"
+    ],
+    [
+        "Census Tract 2173; St. Louis County; Missouri",
+        "83651",
+        "564",
+        "1331",
+        "29",
+        "189",
+        "217300"
+    ],
+    [
+        "Census Tract 2174; St. Louis County; Missouri",
+        "105338",
+        "875",
+        "2577",
+        "29",
+        "189",
+        "217400"
+    ],
+    [
+        "Census Tract 2175; St. Louis County; Missouri",
+        "199592",
+        "31",
+        "1993",
+        "29",
+        "189",
+        "217500"
+    ],
+    [
+        "Census Tract 2176; St. Louis County; Missouri",
+        "190417",
+        "178",
+        "2939",
+        "29",
+        "189",
+        "217600"
+    ],
+    [
+        "Census Tract 2177.01; St. Louis County; Missouri",
+        "184637",
+        "400",
+        "2510",
+        "29",
+        "189",
+        "217701"
+    ],
+    [
+        "Census Tract 2177.02; St. Louis County; Missouri",
+        "161155",
+        "221",
+        "2663",
+        "29",
+        "189",
+        "217702"
+    ],
+    [
+        "Census Tract 2178.02; St. Louis County; Missouri",
+        "123567",
+        "304",
+        "2445",
+        "29",
+        "189",
+        "217802"
+    ],
+    [
+        "Census Tract 2178.06; St. Louis County; Missouri",
+        "94278",
+        "657",
+        "2716",
+        "29",
+        "189",
+        "217806"
+    ],
+    [
+        "Census Tract 2178.07; St. Louis County; Missouri",
+        "130104",
+        "393",
+        "2391",
+        "29",
+        "189",
+        "217807"
+    ],
+    [
+        "Census Tract 2178.41; St. Louis County; Missouri",
+        "127270",
+        "337",
+        "2081",
+        "29",
+        "189",
+        "217841"
+    ],
+    [
+        "Census Tract 2178.51; St. Louis County; Missouri",
+        "164821",
+        "39",
+        "1053",
+        "29",
+        "189",
+        "217851"
+    ],
+    [
+        "Census Tract 2178.52; St. Louis County; Missouri",
+        "170662",
+        "42",
+        "2668",
+        "29",
+        "189",
+        "217852"
+    ],
+    [
+        "Census Tract 2178.53; St. Louis County; Missouri",
+        "131129",
+        "652",
+        "2292",
+        "29",
+        "189",
+        "217853"
+    ],
+    [
+        "Census Tract 2178.54; St. Louis County; Missouri",
+        "177821",
+        "48",
+        "728",
+        "29",
+        "189",
+        "217854"
+    ],
+    [
+        "Census Tract 2179.21; St. Louis County; Missouri",
+        "149815",
+        "239",
+        "1964",
+        "29",
+        "189",
+        "217921"
+    ],
+    [
+        "Census Tract 2179.23; St. Louis County; Missouri",
+        "111210",
+        "555",
+        "2857",
+        "29",
+        "189",
+        "217923"
+    ],
+    [
+        "Census Tract 2179.31; St. Louis County; Missouri",
+        "105573",
+        "322",
+        "3299",
+        "29",
+        "189",
+        "217931"
+    ],
+    [
+        "Census Tract 2179.32; St. Louis County; Missouri",
+        "109375",
+        "441",
+        "2066",
+        "29",
+        "189",
+        "217932"
+    ],
+    [
+        "Census Tract 2179.41; St. Louis County; Missouri",
+        "86875",
+        "279",
+        "2247",
+        "29",
+        "189",
+        "217941"
+    ],
+    [
+        "Census Tract 2179.42; St. Louis County; Missouri",
+        "107500",
+        "388",
+        "2936",
+        "29",
+        "189",
+        "217942"
+    ],
+    [
+        "Census Tract 2179.43; St. Louis County; Missouri",
+        "105219",
+        "199",
+        "1441",
+        "29",
+        "189",
+        "217943"
+    ],
+    [
+        "Census Tract 2179.44; St. Louis County; Missouri",
+        "122222",
+        "101",
+        "2306",
+        "29",
+        "189",
+        "217944"
+    ],
+    [
+        "Census Tract 2180.12; St. Louis County; Missouri",
+        "183828",
+        "54",
+        "1731",
+        "29",
+        "189",
+        "218012"
+    ],
+    [
+        "Census Tract 2180.13; St. Louis County; Missouri",
+        "102589",
+        "782",
+        "2628",
+        "29",
+        "189",
+        "218013"
+    ],
+    [
+        "Census Tract 2180.14; St. Louis County; Missouri",
+        "137404",
+        "5",
+        "586",
+        "29",
+        "189",
+        "218014"
+    ],
+    [
+        "Census Tract 2180.15; St. Louis County; Missouri",
+        "116250",
+        "114",
+        "1053",
+        "29",
+        "189",
+        "218015"
+    ],
+    [
+        "Census Tract 2180.16; St. Louis County; Missouri",
+        "80917",
+        "1136",
+        "1938",
+        "29",
+        "189",
+        "218016"
+    ],
+    [
+        "Census Tract 2181.02; St. Louis County; Missouri",
+        "75463",
+        "273",
+        "1335",
+        "29",
+        "189",
+        "218102"
+    ],
+    [
+        "Census Tract 2181.04; St. Louis County; Missouri",
+        "61598",
+        "543",
+        "960",
+        "29",
+        "189",
+        "218104"
+    ],
+    [
+        "Census Tract 2181.05; St. Louis County; Missouri",
+        "52240",
+        "1648",
+        "1844",
+        "29",
+        "189",
+        "218105"
+    ],
+    [
+        "Census Tract 2182.01; St. Louis County; Missouri",
+        "125526",
+        "269",
+        "1388",
+        "29",
+        "189",
+        "218201"
+    ],
+    [
+        "Census Tract 2183; St. Louis County; Missouri",
+        "73333",
+        "623",
+        "1518",
+        "29",
+        "189",
+        "218300"
+    ],
+    [
+        "Census Tract 2184.01; St. Louis County; Missouri",
+        "158958",
+        "119",
+        "1663",
+        "29",
+        "189",
+        "218401"
+    ],
+    [
+        "Census Tract 2184.02; St. Louis County; Missouri",
+        "130398",
+        "216",
+        "1899",
+        "29",
+        "189",
+        "218402"
+    ],
+    [
+        "Census Tract 2185; St. Louis County; Missouri",
+        "129781",
+        "255",
+        "2131",
+        "29",
+        "189",
+        "218500"
+    ],
+    [
+        "Census Tract 2186; St. Louis County; Missouri",
+        "73472",
+        "498",
+        "935",
+        "29",
+        "189",
+        "218600"
+    ],
+    [
+        "Census Tract 2188; St. Louis County; Missouri",
+        "157750",
+        "70",
+        "1949",
+        "29",
+        "189",
+        "218800"
+    ],
+    [
+        "Census Tract 2189.01; St. Louis County; Missouri",
+        "70455",
+        "485",
+        "2245",
+        "29",
+        "189",
+        "218901"
+    ],
+    [
+        "Census Tract 2189.02; St. Louis County; Missouri",
+        "96970",
+        "122",
+        "1103",
+        "29",
+        "189",
+        "218902"
+    ],
+    [
+        "Census Tract 2191; St. Louis County; Missouri",
+        "87500",
+        "605",
+        "1589",
+        "29",
+        "189",
+        "219100"
+    ],
+    [
+        "Census Tract 2192; St. Louis County; Missouri",
+        "135481",
+        "309",
+        "904",
+        "29",
+        "189",
+        "219200"
+    ],
+    [
+        "Census Tract 2193; St. Louis County; Missouri",
+        "117599",
+        "150",
+        "871",
+        "29",
+        "189",
+        "219300"
+    ],
+    [
+        "Census Tract 2194; St. Louis County; Missouri",
+        "160682",
+        "212",
+        "2732",
+        "29",
+        "189",
+        "219400"
+    ],
+    [
+        "Census Tract 2195.01; St. Louis County; Missouri",
+        "101484",
+        "354",
+        "1981",
+        "29",
+        "189",
+        "219501"
+    ],
+    [
+        "Census Tract 2195.02; St. Louis County; Missouri",
+        "64847",
+        "620",
+        "768",
+        "29",
+        "189",
+        "219502"
+    ],
+    [
+        "Census Tract 2196.01; St. Louis County; Missouri",
+        "72336",
+        "1151",
+        "1733",
+        "29",
+        "189",
+        "219601"
+    ],
+    [
+        "Census Tract 2196.02; St. Louis County; Missouri",
+        "120385",
+        "169",
+        "1521",
+        "29",
+        "189",
+        "219602"
+    ],
+    [
+        "Census Tract 2197; St. Louis County; Missouri",
+        "59312",
+        "1049",
+        "2936",
+        "29",
+        "189",
+        "219700"
+    ],
+    [
+        "Census Tract 2198.01; St. Louis County; Missouri",
+        "77452",
+        "387",
+        "1717",
+        "29",
+        "189",
+        "219801"
+    ],
+    [
+        "Census Tract 2198.02; St. Louis County; Missouri",
+        "61094",
+        "618",
+        "1612",
+        "29",
+        "189",
+        "219802"
+    ],
+    [
+        "Census Tract 2199; St. Louis County; Missouri",
+        "74617",
+        "425",
+        "2688",
+        "29",
+        "189",
+        "219900"
+    ],
+    [
+        "Census Tract 2200.01; St. Louis County; Missouri",
+        "72412",
+        "342",
+        "2374",
+        "29",
+        "189",
+        "220001"
+    ],
+    [
+        "Census Tract 2200.02; St. Louis County; Missouri",
+        "64491",
+        "688",
+        "2138",
+        "29",
+        "189",
+        "220002"
+    ],
+    [
+        "Census Tract 2201.01; St. Louis County; Missouri",
+        "56509",
+        "398",
+        "1654",
+        "29",
+        "189",
+        "220101"
+    ],
+    [
+        "Census Tract 2201.02; St. Louis County; Missouri",
+        "52158",
+        "503",
+        "1686",
+        "29",
+        "189",
+        "220102"
+    ],
+    [
+        "Census Tract 2202; St. Louis County; Missouri",
+        "56629",
+        "192",
+        "1933",
+        "29",
+        "189",
+        "220200"
+    ],
+    [
+        "Census Tract 2203; St. Louis County; Missouri",
+        "42228",
+        "587",
+        "869",
+        "29",
+        "189",
+        "220300"
+    ],
+    [
+        "Census Tract 2204.41; St. Louis County; Missouri",
+        "85714",
+        "641",
+        "2418",
+        "29",
+        "189",
+        "220441"
+    ],
+    [
+        "Census Tract 2204.42; St. Louis County; Missouri",
+        "86667",
+        "45",
+        "2269",
+        "29",
+        "189",
+        "220442"
+    ],
+    [
+        "Census Tract 2204.43; St. Louis County; Missouri",
+        "66654",
+        "767",
+        "1656",
+        "29",
+        "189",
+        "220443"
+    ],
+    [
+        "Census Tract 2204.45; St. Louis County; Missouri",
+        "106394",
+        "74",
+        "1890",
+        "29",
+        "189",
+        "220445"
+    ],
+    [
+        "Census Tract 2204.46; St. Louis County; Missouri",
+        "111944",
+        "35",
+        "1730",
+        "29",
+        "189",
+        "220446"
+    ],
+    [
+        "Census Tract 2204.47; St. Louis County; Missouri",
+        "75341",
+        "484",
+        "1538",
+        "29",
+        "189",
+        "220447"
+    ],
+    [
+        "Census Tract 2204.48; St. Louis County; Missouri",
+        "62794",
+        "964",
+        "2179",
+        "29",
+        "189",
+        "220448"
+    ],
+    [
+        "Census Tract 2204.49; St. Louis County; Missouri",
+        "122702",
+        "190",
+        "2719",
+        "29",
+        "189",
+        "220449"
+    ],
+    [
+        "Census Tract 2204.50; St. Louis County; Missouri",
+        "94844",
+        "189",
+        "1061",
+        "29",
+        "189",
+        "220450"
+    ],
+    [
+        "Census Tract 2204.51; St. Louis County; Missouri",
+        "117763",
+        "18",
+        "1721",
+        "29",
+        "189",
+        "220451"
+    ],
+    [
+        "Census Tract 2204.52; St. Louis County; Missouri",
+        "105375",
+        "25",
+        "1998",
+        "29",
+        "189",
+        "220452"
+    ],
+    [
+        "Census Tract 2205.01; St. Louis County; Missouri",
+        "54478",
+        "591",
+        "2891",
+        "29",
+        "189",
+        "220501"
+    ],
+    [
+        "Census Tract 2205.03; St. Louis County; Missouri",
+        "75208",
+        "251",
+        "1266",
+        "29",
+        "189",
+        "220503"
+    ],
+    [
+        "Census Tract 2205.04; St. Louis County; Missouri",
+        "51509",
+        "839",
+        "2174",
+        "29",
+        "189",
+        "220504"
+    ],
+    [
+        "Census Tract 2206.01; St. Louis County; Missouri",
+        "84082",
+        "408",
+        "3011",
+        "29",
+        "189",
+        "220601"
+    ],
+    [
+        "Census Tract 2206.02; St. Louis County; Missouri",
+        "63720",
+        "752",
+        "2021",
+        "29",
+        "189",
+        "220602"
+    ],
+    [
+        "Census Tract 2207.01; St. Louis County; Missouri",
+        "66480",
+        "462",
+        "1359",
+        "29",
+        "189",
+        "220701"
+    ],
+    [
+        "Census Tract 2207.02; St. Louis County; Missouri",
+        "83207",
+        "245",
+        "2177",
+        "29",
+        "189",
+        "220702"
+    ],
+    [
+        "Census Tract 2207.03; St. Louis County; Missouri",
+        "83295",
+        "102",
+        "1113",
+        "29",
+        "189",
+        "220703"
+    ],
+    [
+        "Census Tract 2208.01; St. Louis County; Missouri",
+        "66544",
+        "1123",
+        "2728",
+        "29",
+        "189",
+        "220801"
+    ],
+    [
+        "Census Tract 2208.02; St. Louis County; Missouri",
+        "92375",
+        "530",
+        "2256",
+        "29",
+        "189",
+        "220802"
+    ],
+    [
+        "Census Tract 2208.03; St. Louis County; Missouri",
+        "125485",
+        "125",
+        "1880",
+        "29",
+        "189",
+        "220803"
+    ],
+    [
+        "Census Tract 2210; St. Louis County; Missouri",
+        "65404",
+        "616",
+        "1488",
+        "29",
+        "189",
+        "221000"
+    ],
+    [
+        "Census Tract 2211; St. Louis County; Missouri",
+        "129145",
+        "66",
+        "679",
+        "29",
+        "189",
+        "221100"
+    ],
+    [
+        "Census Tract 2212.01; St. Louis County; Missouri",
+        "155482",
+        "325",
+        "1326",
+        "29",
+        "189",
+        "221201"
+    ],
+    [
+        "Census Tract 2212.02; St. Louis County; Missouri",
+        "70493",
+        "709",
+        "2661",
+        "29",
+        "189",
+        "221202"
+    ],
+    [
+        "Census Tract 2213.32; St. Louis County; Missouri",
+        "107344",
+        "150",
+        "2066",
+        "29",
+        "189",
+        "221332"
+    ],
+    [
+        "Census Tract 2213.35; St. Louis County; Missouri",
+        "73813",
+        "808",
+        "2518",
+        "29",
+        "189",
+        "221335"
+    ],
+    [
+        "Census Tract 2213.36; St. Louis County; Missouri",
+        "67596",
+        "180",
+        "1322",
+        "29",
+        "189",
+        "221336"
+    ],
+    [
+        "Census Tract 2213.37; St. Louis County; Missouri",
+        "98022",
+        "497",
+        "1768",
+        "29",
+        "189",
+        "221337"
+    ],
+    [
+        "Census Tract 2213.38; St. Louis County; Missouri",
+        "47261",
+        "1009",
+        "1955",
+        "29",
+        "189",
+        "221338"
+    ],
+    [
+        "Census Tract 2213.39; St. Louis County; Missouri",
+        "102586",
+        "103",
+        "1750",
+        "29",
+        "189",
+        "221339"
+    ],
+    [
+        "Census Tract 2214.21; St. Louis County; Missouri",
+        "130481",
+        "110",
+        "3155",
+        "29",
+        "189",
+        "221421"
+    ],
+    [
+        "Census Tract 2214.23; St. Louis County; Missouri",
+        "97500",
+        "188",
+        "1740",
+        "29",
+        "189",
+        "221423"
+    ],
+    [
+        "Census Tract 2214.24; St. Louis County; Missouri",
+        "100059",
+        "302",
+        "1769",
+        "29",
+        "189",
+        "221424"
+    ],
+    [
+        "Census Tract 2214.25; St. Louis County; Missouri",
+        "103323",
+        "533",
+        "2181",
+        "29",
+        "189",
+        "221425"
+    ],
+    [
+        "Census Tract 2214.26; St. Louis County; Missouri",
+        "89348",
+        "186",
+        "1247",
+        "29",
+        "189",
+        "221426"
+    ],
+    [
+        "Census Tract 2215.02; St. Louis County; Missouri",
+        "114833",
+        "434",
+        "2932",
+        "29",
+        "189",
+        "221502"
+    ],
+    [
+        "Census Tract 2215.03; St. Louis County; Missouri",
+        "105766",
+        "504",
+        "2650",
+        "29",
+        "189",
+        "221503"
+    ],
+    [
+        "Census Tract 2215.06; St. Louis County; Missouri",
+        "133542",
+        "278",
+        "2316",
+        "29",
+        "189",
+        "221506"
+    ],
+    [
+        "Census Tract 2216.21; St. Louis County; Missouri",
+        "164032",
+        "142",
+        "2047",
+        "29",
+        "189",
+        "221621"
+    ],
+    [
+        "Census Tract 2216.24; St. Louis County; Missouri",
+        "116615",
+        "309",
+        "1259",
+        "29",
+        "189",
+        "221624"
+    ],
+    [
+        "Census Tract 2216.25; St. Louis County; Missouri",
+        "115471",
+        "525",
+        "3010",
+        "29",
+        "189",
+        "221625"
+    ],
+    [
+        "Census Tract 2216.26; St. Louis County; Missouri",
+        "161667",
+        "100",
+        "2477",
+        "29",
+        "189",
+        "221626"
+    ],
+    [
+        "Census Tract 2216.27; St. Louis County; Missouri",
+        "241726",
+        "6",
+        "2526",
+        "29",
+        "189",
+        "221627"
+    ],
+    [
+        "Census Tract 2216.29; St. Louis County; Missouri",
+        "203854",
+        "7",
+        "2450",
+        "29",
+        "189",
+        "221629"
+    ],
+    [
+        "Census Tract 2216.30; St. Louis County; Missouri",
+        "89036",
+        "527",
+        "582",
+        "29",
+        "189",
+        "221630"
+    ],
+    [
+        "Census Tract 2216.31; St. Louis County; Missouri",
+        "110787",
+        "1492",
+        "2691",
+        "29",
+        "189",
+        "221631"
+    ],
+    [
+        "Census Tract 2218; St. Louis County; Missouri",
+        "33950",
+        "639",
+        "1183",
+        "29",
+        "189",
+        "221800"
+    ],
+    [
+        "Census Tract 2219; St. Louis County; Missouri",
+        "107703",
+        "262",
+        "1689",
+        "29",
+        "189",
+        "221900"
+    ],
+    [
+        "Census Tract 2220; St. Louis County; Missouri",
+        "83259",
+        "576",
+        "1308",
+        "29",
+        "189",
+        "222000"
+    ],
+    [
+        "Census Tract 2221; St. Louis County; Missouri",
+        "138750",
+        "121",
+        "1889",
+        "29",
+        "189",
+        "222100"
+    ],
+    [
+        "NAME",
+        "B19013_001E",
+        "B25070_001E",
+        "B08303_001E",
+        "state",
+        "county",
+        "tract"
+    ],
+    [
+        "Census Tract 1011; St. Louis city; Missouri",
+        "56136",
+        "112",
+        "1138",
+        "29",
+        "510",
+        "101100"
+    ],
+    [
+        "Census Tract 1012; St. Louis city; Missouri",
+        "86904",
+        "206",
+        "1802",
+        "29",
+        "510",
+        "101200"
+    ],
+    [
+        "Census Tract 1013; St. Louis city; Missouri",
+        "64688",
+        "984",
+        "1976",
+        "29",
+        "510",
+        "101300"
+    ],
+    [
+        "Census Tract 1014; St. Louis city; Missouri",
+        "64868",
+        "405",
+        "1253",
+        "29",
+        "510",
+        "101400"
+    ],
+    [
+        "Census Tract 1015; St. Louis city; Missouri",
+        "37500",
+        "692",
+        "1245",
+        "29",
+        "510",
+        "101500"
+    ],
+    [
+        "Census Tract 1018; St. Louis city; Missouri",
+        "38750",
+        "680",
+        "1238",
+        "29",
+        "510",
+        "101800"
+    ],
+    [
+        "Census Tract 1021; St. Louis city; Missouri",
+        "58654",
+        "764",
+        "1325",
+        "29",
+        "510",
+        "102100"
+    ],
+    [
+        "Census Tract 1022; St. Louis city; Missouri",
+        "86898",
+        "465",
+        "2636",
+        "29",
+        "510",
+        "102200"
+    ],
+    [
+        "Census Tract 1023; St. Louis city; Missouri",
+        "58750",
+        "363",
+        "1302",
+        "29",
+        "510",
+        "102300"
+    ],
+    [
+        "Census Tract 1024; St. Louis city; Missouri",
+        "53876",
+        "441",
+        "1191",
+        "29",
+        "510",
+        "102400"
+    ],
+    [
+        "Census Tract 1025; St. Louis city; Missouri",
+        "62417",
+        "232",
+        "1110",
+        "29",
+        "510",
+        "102500"
+    ],
+    [
+        "Census Tract 1031; St. Louis city; Missouri",
+        "57679",
+        "1156",
+        "1624",
+        "29",
+        "510",
+        "103100"
+    ],
+    [
+        "Census Tract 1034; St. Louis city; Missouri",
+        "65625",
+        "211",
+        "976",
+        "29",
+        "510",
+        "103400"
+    ],
+    [
+        "Census Tract 1036; St. Louis city; Missouri",
+        "78819",
+        "104",
+        "581",
+        "29",
+        "510",
+        "103600"
+    ],
+    [
+        "Census Tract 1037; St. Louis city; Missouri",
+        "74320",
+        "238",
+        "1396",
+        "29",
+        "510",
+        "103700"
+    ],
+    [
+        "Census Tract 1038; St. Louis city; Missouri",
+        "71563",
+        "471",
+        "1707",
+        "29",
+        "510",
+        "103800"
+    ],
+    [
+        "Census Tract 1042; St. Louis city; Missouri",
+        "68237",
+        "1023",
+        "1857",
+        "29",
+        "510",
+        "104200"
+    ],
+    [
+        "Census Tract 1045; St. Louis city; Missouri",
+        "62917",
+        "1017",
+        "1261",
+        "29",
+        "510",
+        "104500"
+    ],
+    [
+        "Census Tract 1051.98; St. Louis city; Missouri",
+        "87917",
+        "654",
+        "1155",
+        "29",
+        "510",
+        "105198"
+    ],
+    [
+        "Census Tract 1052; St. Louis city; Missouri",
+        "50484",
+        "951",
+        "1333",
+        "29",
+        "510",
+        "105200"
+    ],
+    [
+        "Census Tract 1053; St. Louis city; Missouri",
+        "18656",
+        "925",
+        "802",
+        "29",
+        "510",
+        "105300"
+    ],
+    [
+        "Census Tract 1054; St. Louis city; Missouri",
+        "57628",
+        "767",
+        "1116",
+        "29",
+        "510",
+        "105400"
+    ],
+    [
+        "Census Tract 1055; St. Louis city; Missouri",
+        "53875",
+        "648",
+        "1004",
+        "29",
+        "510",
+        "105500"
+    ],
+    [
+        "Census Tract 1061; St. Louis city; Missouri",
+        "27353",
+        "457",
+        "528",
+        "29",
+        "510",
+        "106100"
+    ],
+    [
+        "Census Tract 1062; St. Louis city; Missouri",
+        "24219",
+        "409",
+        "341",
+        "29",
+        "510",
+        "106200"
+    ],
+    [
+        "Census Tract 1063; St. Louis city; Missouri",
+        "27656",
+        "352",
+        "531",
+        "29",
+        "510",
+        "106300"
+    ],
+    [
+        "Census Tract 1064; St. Louis city; Missouri",
+        "36000",
+        "507",
+        "784",
+        "29",
+        "510",
+        "106400"
+    ],
+    [
+        "Census Tract 1065; St. Louis city; Missouri",
+        "42197",
+        "462",
+        "1131",
+        "29",
+        "510",
+        "106500"
+    ],
+    [
+        "Census Tract 1066; St. Louis city; Missouri",
+        "-666666666",
+        "318",
+        "423",
+        "29",
+        "510",
+        "106600"
+    ],
+    [
+        "Census Tract 1067; St. Louis city; Missouri",
+        "56173",
+        "347",
+        "1066",
+        "29",
+        "510",
+        "106700"
+    ],
+    [
+        "Census Tract 1072; St. Louis city; Missouri",
+        "29726",
+        "219",
+        "299",
+        "29",
+        "510",
+        "107200"
+    ],
+    [
+        "Census Tract 1073; St. Louis city; Missouri",
+        "38220",
+        "903",
+        "1879",
+        "29",
+        "510",
+        "107300"
+    ],
+    [
+        "Census Tract 1074; St. Louis city; Missouri",
+        "43878",
+        "352",
+        "378",
+        "29",
+        "510",
+        "107400"
+    ],
+    [
+        "Census Tract 1075; St. Louis city; Missouri",
+        "-666666666",
+        "420",
+        "556",
+        "29",
+        "510",
+        "107500"
+    ],
+    [
+        "Census Tract 1076; St. Louis city; Missouri",
+        "36563",
+        "428",
+        "490",
+        "29",
+        "510",
+        "107600"
+    ],
+    [
+        "Census Tract 1081; St. Louis city; Missouri",
+        "42438",
+        "521",
+        "1218",
+        "29",
+        "510",
+        "108100"
+    ],
+    [
+        "Census Tract 1082; St. Louis city; Missouri",
+        "36227",
+        "340",
+        "508",
+        "29",
+        "510",
+        "108200"
+    ],
+    [
+        "Census Tract 1083; St. Louis city; Missouri",
+        "40909",
+        "335",
+        "843",
+        "29",
+        "510",
+        "108300"
+    ],
+    [
+        "Census Tract 1096; St. Louis city; Missouri",
+        "32102",
+        "823",
+        "1106",
+        "29",
+        "510",
+        "109600"
+    ],
+    [
+        "Census Tract 1097; St. Louis city; Missouri",
+        "41768",
+        "328",
+        "589",
+        "29",
+        "510",
+        "109700"
+    ],
+    [
+        "Census Tract 1101; St. Louis city; Missouri",
+        "30081",
+        "558",
+        "687",
+        "29",
+        "510",
+        "110100"
+    ],
+    [
+        "Census Tract 1102; St. Louis city; Missouri",
+        "25781",
+        "571",
+        "762",
+        "29",
+        "510",
+        "110200"
+    ],
+    [
+        "Census Tract 1103; St. Louis city; Missouri",
+        "29167",
+        "501",
+        "554",
+        "29",
+        "510",
+        "110300"
+    ],
+    [
+        "Census Tract 1104; St. Louis city; Missouri",
+        "47957",
+        "661",
+        "798",
+        "29",
+        "510",
+        "110400"
+    ],
+    [
+        "Census Tract 1105; St. Louis city; Missouri",
+        "28229",
+        "160",
+        "236",
+        "29",
+        "510",
+        "110500"
+    ],
+    [
+        "Census Tract 1111; St. Louis city; Missouri",
+        "-666666666",
+        "671",
+        "386",
+        "29",
+        "510",
+        "111100"
+    ],
+    [
+        "Census Tract 1112; St. Louis city; Missouri",
+        "50250",
+        "141",
+        "473",
+        "29",
+        "510",
+        "111200"
+    ],
+    [
+        "Census Tract 1113; St. Louis city; Missouri",
+        "27870",
+        "603",
+        "650",
+        "29",
+        "510",
+        "111300"
+    ],
+    [
+        "Census Tract 1121; St. Louis city; Missouri",
+        "64651",
+        "1818",
+        "2300",
+        "29",
+        "510",
+        "112100"
+    ],
+    [
+        "Census Tract 1122; St. Louis city; Missouri",
+        "39167",
+        "369",
+        "494",
+        "29",
+        "510",
+        "112200"
+    ],
+    [
+        "Census Tract 1123; St. Louis city; Missouri",
+        "31765",
+        "459",
+        "430",
+        "29",
+        "510",
+        "112300"
+    ],
+    [
+        "Census Tract 1124; St. Louis city; Missouri",
+        "73818",
+        "1790",
+        "1984",
+        "29",
+        "510",
+        "112400"
+    ],
+    [
+        "Census Tract 1135; St. Louis city; Missouri",
+        "58417",
+        "478",
+        "1398",
+        "29",
+        "510",
+        "113500"
+    ],
+    [
+        "Census Tract 1141.01; St. Louis city; Missouri",
+        "50330",
+        "1122",
+        "2018",
+        "29",
+        "510",
+        "114101"
+    ],
+    [
+        "Census Tract 1141.02; St. Louis city; Missouri",
+        "75671",
+        "1013",
+        "2049",
+        "29",
+        "510",
+        "114102"
+    ],
+    [
+        "Census Tract 1142; St. Louis city; Missouri",
+        "73618",
+        "662",
+        "2481",
+        "29",
+        "510",
+        "114200"
+    ],
+    [
+        "Census Tract 1143; St. Louis city; Missouri",
+        "78545",
+        "618",
+        "2902",
+        "29",
+        "510",
+        "114300"
+    ],
+    [
+        "Census Tract 1151; St. Louis city; Missouri",
+        "46758",
+        "735",
+        "1587",
+        "29",
+        "510",
+        "115100"
+    ],
+    [
+        "Census Tract 1152; St. Louis city; Missouri",
+        "40060",
+        "825",
+        "1163",
+        "29",
+        "510",
+        "115200"
+    ],
+    [
+        "Census Tract 1153; St. Louis city; Missouri",
+        "49530",
+        "1042",
+        "2265",
+        "29",
+        "510",
+        "115300"
+    ],
+    [
+        "Census Tract 1154; St. Louis city; Missouri",
+        "41716",
+        "499",
+        "1228",
+        "29",
+        "510",
+        "115400"
+    ],
+    [
+        "Census Tract 1155; St. Louis city; Missouri",
+        "46348",
+        "1542",
+        "2612",
+        "29",
+        "510",
+        "115500"
+    ],
+    [
+        "Census Tract 1156; St. Louis city; Missouri",
+        "28052",
+        "1824",
+        "1643",
+        "29",
+        "510",
+        "115600"
+    ],
+    [
+        "Census Tract 1157; St. Louis city; Missouri",
+        "46900",
+        "1209",
+        "1690",
+        "29",
+        "510",
+        "115700"
+    ],
+    [
+        "Census Tract 1161; St. Louis city; Missouri",
+        "41585",
+        "1038",
+        "1585",
+        "29",
+        "510",
+        "116100"
+    ],
+    [
+        "Census Tract 1162; St. Louis city; Missouri",
+        "91103",
+        "582",
+        "2240",
+        "29",
+        "510",
+        "116200"
+    ],
+    [
+        "Census Tract 1163.01; St. Louis city; Missouri",
+        "92540",
+        "561",
+        "1454",
+        "29",
+        "510",
+        "116301"
+    ],
+    [
+        "Census Tract 1163.02; St. Louis city; Missouri",
+        "38099",
+        "982",
+        "1395",
+        "29",
+        "510",
+        "116302"
+    ],
+    [
+        "Census Tract 1164; St. Louis city; Missouri",
+        "43400",
+        "1429",
+        "1808",
+        "29",
+        "510",
+        "116400"
+    ],
+    [
+        "Census Tract 1165; St. Louis city; Missouri",
+        "78114",
+        "798",
+        "2124",
+        "29",
+        "510",
+        "116500"
+    ],
+    [
+        "Census Tract 1171; St. Louis city; Missouri",
+        "53902",
+        "623",
+        "796",
+        "29",
+        "510",
+        "117100"
+    ],
+    [
+        "Census Tract 1172; St. Louis city; Missouri",
+        "96029",
+        "1091",
+        "2440",
+        "29",
+        "510",
+        "117200"
+    ],
+    [
+        "Census Tract 1174; St. Louis city; Missouri",
+        "86466",
+        "853",
+        "1740",
+        "29",
+        "510",
+        "117400"
+    ],
+    [
+        "Census Tract 1181; St. Louis city; Missouri",
+        "66094",
+        "433",
+        "628",
+        "29",
+        "510",
+        "118100"
+    ],
+    [
+        "Census Tract 1186; St. Louis city; Missouri",
+        "64074",
+        "1216",
+        "2198",
+        "29",
+        "510",
+        "118600"
+    ],
+    [
+        "Census Tract 1191.01; St. Louis city; Missouri",
+        "51978",
+        "1159",
+        "1216",
+        "29",
+        "510",
+        "119101"
+    ],
+    [
+        "Census Tract 1191.02; St. Louis city; Missouri",
+        "55925",
+        "1713",
+        "1752",
+        "29",
+        "510",
+        "119102"
+    ],
+    [
+        "Census Tract 1192; St. Louis city; Missouri",
+        "87159",
+        "347",
+        "772",
+        "29",
+        "510",
+        "119200"
+    ],
+    [
+        "Census Tract 1193; St. Louis city; Missouri",
+        "28911",
+        "1437",
+        "1672",
+        "29",
+        "510",
+        "119300"
+    ],
+    [
+        "Census Tract 1202; St. Louis city; Missouri",
+        "38352",
+        "297",
+        "311",
+        "29",
+        "510",
+        "120200"
+    ],
+    [
+        "Census Tract 1212; St. Louis city; Missouri",
+        "30054",
+        "786",
+        "793",
+        "29",
+        "510",
+        "121200"
+    ],
+    [
+        "Census Tract 1231; St. Louis city; Missouri",
+        "63478",
+        "671",
+        "1771",
+        "29",
+        "510",
+        "123100"
+    ],
+    [
+        "Census Tract 1232; St. Louis city; Missouri",
+        "75230",
+        "845",
+        "1590",
+        "29",
+        "510",
+        "123200"
+    ],
+    [
+        "Census Tract 1233; St. Louis city; Missouri",
+        "59026",
+        "909",
+        "1684",
+        "29",
+        "510",
+        "123300"
+    ],
+    [
+        "Census Tract 1241; St. Louis city; Missouri",
+        "40417",
+        "1149",
+        "1309",
+        "29",
+        "510",
+        "124100"
+    ],
+    [
+        "Census Tract 1242; St. Louis city; Missouri",
+        "44074",
+        "1107",
+        "1859",
+        "29",
+        "510",
+        "124200"
+    ],
+    [
+        "Census Tract 1243; St. Louis city; Missouri",
+        "93269",
+        "564",
+        "1700",
+        "29",
+        "510",
+        "124300"
+    ],
+    [
+        "Census Tract 1246; St. Louis city; Missouri",
+        "36925",
+        "466",
+        "604",
+        "29",
+        "510",
+        "124600"
+    ],
+    [
+        "Census Tract 1255; St. Louis city; Missouri",
+        "63688",
+        "2229",
+        "2190",
+        "29",
+        "510",
+        "125500"
+    ],
+    [
+        "Census Tract 1256; St. Louis city; Missouri",
+        "75516",
+        "2556",
+        "2682",
+        "29",
+        "510",
+        "125600"
+    ],
+    [
+        "Census Tract 1257; St. Louis city; Missouri",
+        "23879",
+        "941",
+        "599",
+        "29",
+        "510",
+        "125700"
+    ],
+    [
+        "Census Tract 1266; St. Louis city; Missouri",
+        "15095",
+        "676",
+        "583",
+        "29",
+        "510",
+        "126600"
+    ],
+    [
+        "Census Tract 1267; St. Louis city; Missouri",
+        "44167",
+        "216",
+        "331",
+        "29",
+        "510",
+        "126700"
+    ],
+    [
+        "Census Tract 1268; St. Louis city; Missouri",
+        "71649",
+        "534",
+        "1624",
+        "29",
+        "510",
+        "126800"
+    ],
+    [
+        "Census Tract 1269; St. Louis city; Missouri",
+        "46205",
+        "786",
+        "1212",
+        "29",
+        "510",
+        "126900"
+    ],
+    [
+        "Census Tract 1270; St. Louis city; Missouri",
+        "23988",
+        "356",
+        "625",
+        "29",
+        "510",
+        "127000"
+    ],
+    [
+        "Census Tract 1271; St. Louis city; Missouri",
+        "16529",
+        "647",
+        "269",
+        "29",
+        "510",
+        "127100"
+    ],
+    [
+        "Census Tract 1272; St. Louis city; Missouri",
+        "69450",
+        "1223",
+        "2258",
+        "29",
+        "510",
+        "127200"
+    ],
+    [
+        "Census Tract 1273; St. Louis city; Missouri",
+        "63529",
+        "1109",
+        "2174",
+        "29",
+        "510",
+        "127300"
+    ],
+    [
+        "Census Tract 1274; St. Louis city; Missouri",
+        "53575",
+        "1482",
+        "2151",
+        "29",
+        "510",
+        "127400"
+    ],
+    [
+        "Census Tract 1275; St. Louis city; Missouri",
+        "27039",
+        "1218",
+        "851",
+        "29",
+        "510",
+        "127500"
+    ],
+    [
+        "Census Tract 1276; St. Louis city; Missouri",
+        "82431",
+        "981",
+        "1420",
+        "29",
+        "510",
+        "127600"
+    ],
+    [
+        "Census Tract 1277; St. Louis city; Missouri",
+        "25823",
+        "387",
+        "813",
+        "29",
+        "510",
+        "127700"
+    ],
+    [
+        "Census Tract 1278; St. Louis city; Missouri",
+        "21678",
+        "1588",
+        "1064",
+        "29",
+        "510",
+        "127800"
+    ]
+]
