@@ -640,3 +640,4 @@ display(
     .agg(F.sum("total_incidents").alias("total_incidents"))
     .orderBy("year", "month")
 )
+
