@@ -384,143 +384,172 @@ display(
 # MAGIC %md
 # MAGIC ## Cell 10 — Derive crime_rate_per_1000 (Census Population Join)
 # MAGIC
-# MAGIC Joins Census ACS data via the tract-neighborhood area weight overlay
-# MAGIC to compute neighborhood-level population, then derives:
+# MAGIC Joins teammate's pre-computed neighborhood-level Census data to
+# MAGIC derive crime_rate_per_1000 and enrich with additional features:
+# MAGIC - income              — area-weighted median household income
+# MAGIC - housing_cost_burden — share of households cost-burdened
+# MAGIC - flood_zone_pct      — share of neighborhood in FEMA flood zone
 # MAGIC
-# MAGIC `crime_rate_per_1000 = (total_incidents / population) * 1000`
-# MAGIC
-# MAGIC The area weight overlay apportions each census tract's population
-# MAGIC to the neighborhoods it overlaps, weighted by the fraction of the
-# MAGIC tract's area that falls within each neighborhood.
-# MAGIC
-# MAGIC **Note:** The teammate's Census ingest uses median household income
-# MAGIC (B19013_001E) rather than total population (B01001_001E). Until
-# MAGIC total population is available, `crime_rate_per_1000` remains null.
-# MAGIC Update `CENSUS_POP_FIELD` below when population data is ingested.
+# MAGIC Note: neighborhood_data.csv was produced by Alondra
+# MAGIC using area-weighted Census tract aggregation via the
+# MAGIC tract_neighborhood_overlay. It is already at neighborhood grain
+# MAGIC so no additional spatial join is needed here.
 
 # COMMAND ----------
 
 import os
-import json
 import pandas as pd
 
-# The Census field containing population
-# Change to "B01001_001E" when full population data is available
-CENSUS_POP_FIELD = "B19013_001E"   # currently median income as proxy
+NEIGHBORHOOD_DATA_PATH = (
+    "/Workspace/Users/jcoffey@wustl.edu/Data_Engineering_Final/"
+    "KAN19/data/raw/census/neighborhood_data.csv"
+)
 
 try:
-    # ── Load Census data ──────────────────────────────────────
-    if not os.path.exists(CENSUS_PATH):
-        raise FileNotFoundError(f"Census file not found: {CENSUS_PATH}")
-
-    with open(CENSUS_PATH) as f:
-        raw = json.load(f)
-
-    headers    = raw[0]
-    census_pdf = pd.DataFrame(raw[1:], columns=headers)
-
-    # Build 11-digit GEOID from state + county + tract
-    census_pdf["GEOID"] = (
-        census_pdf["state"] +
-        census_pdf["county"] +
-        census_pdf["tract"]
-    )
-
-    # Cast the population/income field to numeric
-    # -666666666 is Census missing data flag — filter these out
-    census_pdf[CENSUS_POP_FIELD] = pd.to_numeric(
-        census_pdf[CENSUS_POP_FIELD], errors="coerce"
-    )
-    census_pdf = census_pdf[census_pdf[CENSUS_POP_FIELD] > 0]
-
-    census_sdf = spark.createDataFrame(
-        census_pdf[["GEOID", CENSUS_POP_FIELD]]
-    )
-    print(f"✓ Census data loaded: {census_sdf.count():,} tracts")
-
-    # ── Load tract-neighborhood overlay ───────────────────────
-    # GeoJSON is just JSON — no need for geopandas to read it.
-    # We extract only the properties we need from each feature.
-    import json
-    with open(OVERLAY_PATH) as f:
-        overlay_raw = json.load(f)
-
-    overlay_records = [
-        {
-            "GEOID":             feat["properties"].get("GEOID"),
-            "neighborhood_name": feat["properties"].get("neighborhood_name"),
-            "area_weight":       feat["properties"].get("area_weight"),
-        }
-        for feat in overlay_raw["features"]
-        if feat["properties"].get("GEOID") is not None
-    ]
-
-    overlay_sdf = spark.createDataFrame(overlay_records)
-
-    print(f"✓ Overlay loaded: {overlay_sdf.count():,} tract-neighborhood pairs")
-
-    # ── Area-weighted population per neighborhood ─────────────
-    # For each tract-neighborhood pair: weighted_value = value * area_weight
-    # Sum these up per neighborhood to get the neighborhood-level estimate
-    pop_by_nhood = (
-        overlay_sdf
-        .join(census_sdf, on="GEOID", how="left")
-        .withColumn(CENSUS_POP_FIELD, F.col(CENSUS_POP_FIELD).cast(DoubleType()))
-        .filter(F.col(CENSUS_POP_FIELD).isNotNull())
-        .groupBy("neighborhood_name")
-        .agg(
-            F.round(
-                F.sum(F.col(CENSUS_POP_FIELD) * F.col("area_weight")) /
-                F.sum("area_weight"),
-                0
-            ).alias("population_proxy")
+    # ── Load neighborhood Census data ─────────────────────────
+    if not os.path.exists(NEIGHBORHOOD_DATA_PATH):
+        raise FileNotFoundError(
+            f"Neighborhood data not found at {NEIGHBORHOOD_DATA_PATH}"
         )
-    )
-    print(f"✓ Population proxy computed for {pop_by_nhood.count()} neighborhoods")
 
-    # ── Join to crime features and compute rate ───────────────
+    nhood_pdf = pd.read_csv(NEIGHBORHOOD_DATA_PATH)
+    print(f"✓ Loaded neighborhood data: {len(nhood_pdf)} neighborhoods")
+    print(f"  Columns: {list(nhood_pdf.columns)}")
+
+    # Rename columns to match our canonical naming
+    nhood_pdf = nhood_pdf.rename(columns={
+        "NHD_NAME":                  "neighborhood_name",
+        "income":                    "median_income",
+        "housing_cost_burden_ratio": "housing_cost_burden",
+        "flood_zone_pct":            "flood_zone_pct",
+    })
+
+    # ── Normalize crime data neighborhood names ───────────────
+    # SLMPD uses slightly different formatting than the city
+    # shapefile in some cases. This map standardizes crime data
+    # names to match Census/shapefile canonical names before joining.
+    CRIME_NAME_FIX = {
+    # Previously fixed
+    "JeffVanderLou":                "Jeff Vanderlou",
+    "Wydown / Skinker":             "Wydown Skinker",
+    "Skinker / DeBaliviere":        "Skinker DeBaliviere",
+    "St Louis Place":               "St. Louis Place",
+    "OFallon":                      "O'Fallon",
+    "The Greater Ville":            "Greater Ville",
+    "Mark Twain / I 70 Industrial": "Mark Twain I-70 Industrial",
+    "Hi Pointe":                    "Hi-Pointe",
+    "Covenant Blu Grand Center":    "Covenant Blu-Grand Center",
+    # New fixes
+    "Old North St Louis":           "Old North St. Louis",
+    "Forest Park Southeast":        "Forest Park South East",
+    "St Louis Hills":               "St. Louis Hills",
+    "Clayton / Tamm":               "Clayton-Tamm",
+    "Fairground":                   "Fairground Neighborhood",
+    "Lasalle Park":                 "LaSalle Park",
+}
+
+    # Build a Spark map literal from the fix dictionary
+    fix_entries = []
+    for wrong, correct in CRIME_NAME_FIX.items():
+        fix_entries.extend([F.lit(wrong), F.lit(correct)])
+
+    fix_map = F.create_map(*fix_entries)
+
+    # Apply fixes — coalesce keeps the original name if not in map
+    df_features_fixed = df_features.withColumn(
+        "neighborhood",
+        F.coalesce(fix_map[F.col("neighborhood")], F.col("neighborhood"))
+    )
+
+    print(f"✓ Name normalization applied: {len(CRIME_NAME_FIX)} fixes")
+
+    # Convert Census data to Spark for the join
+    nhood_sdf = spark.createDataFrame(nhood_pdf)
+
+    # ── Join crime data to Census neighborhood data ───────────
+    # Left join keeps all crime records — unmatched neighborhoods
+    # (parks/cemeteries) will have null Census fields which is expected
     df_enriched = (
-        df_features
+        df_features_fixed
         .join(
-            pop_by_nhood,
-            df_features["neighborhood"] == pop_by_nhood["neighborhood_name"],
+            nhood_sdf,
+            df_features_fixed["neighborhood"] == nhood_sdf["neighborhood_name"],
             how="left"
         )
         .drop("neighborhood_name")
-        .withColumn(
-            "population",
-            F.col("population_proxy").cast(IntegerType())
-        )
-        .drop("population_proxy")
-        .withColumn(
-            "crime_rate_per_1000",
-            F.round(
-                F.col("total_incidents").cast(DoubleType()) /
-                F.col("population").cast(DoubleType()) * 1000,
-                2
-            )
-        )
     )
 
-    print(f"✓ crime_rate_per_1000 derived")
-    print(f"\nTop 10 neighborhoods by crime rate:")
+    # ── Join diagnostic ───────────────────────────────────────
+    total     = df_enriched.count()
+    matched   = df_enriched.filter(F.col("median_income").isNotNull()).count()
+    unmatched = df_enriched.filter(F.col("median_income").isNull()).count()
+
+    print(f"\n✓ Join complete")
+    print(f"  Total rows:  {total:,}")
+    print(f"  Matched:     {matched:,}")
+    print(f"  Unmatched:   {unmatched:,} (expected: parks/cemeteries only)")
+
+    if unmatched > 0:
+        print(f"\n  Unmatched neighborhood values:")
+        display(
+            df_enriched
+            .filter(F.col("median_income").isNull())
+            .select("neighborhood")
+            .distinct()
+            .limit(15)
+        )
+
+    # ── crime_rate_per_1000 placeholder ──────────────────────
+    # Kept null until raw population count (B01001_001E) is
+    # confirmed available from the Census ingest module.
+    # Swap median_income for population when available and
+    # use: (total_incidents / population) * 1000
+    df_enriched = df_enriched.withColumn(
+        "crime_rate_per_1000",
+        F.lit(None).cast(DoubleType())
+    )
+
+    # ── Sample matched rows ───────────────────────────────────
+    print(f"\nSample enriched data (matched rows only):")
     display(
         df_enriched
-        .groupBy("neighborhood")
-        .agg(F.round(F.avg("crime_rate_per_1000"), 2).alias("avg_crime_rate"))
-        .orderBy("avg_crime_rate", ascending=False)
+        .filter(F.col("median_income").isNotNull())
+        .select(
+            "neighborhood", "year", "month",
+            "total_incidents", "violent_crime_pct",
+            "median_income", "housing_cost_burden", "flood_zone_pct"
+        )
+        .orderBy("neighborhood", "year", "month")
+        .limit(10)
+    )
+
+    # ── Flood risk + crime spot check ─────────────────────────
+    # Neighborhoods with high flood risk — relevant for STL extreme
+    # weather context. Cross-referencing with crime gives a fuller
+    # picture of neighborhood vulnerability.
+    print(f"\nNeighborhoods with high flood risk (>50% flood zone):")
+    display(
+        df_enriched
+        .filter(F.col("flood_zone_pct") > 0.5)
+        .groupBy("neighborhood", "flood_zone_pct")
+        .agg(
+            F.round(F.avg("total_incidents"), 1).alias("avg_monthly_incidents"),
+            F.round(F.avg("violent_crime_pct"), 4).alias("avg_violent_pct"),
+            F.round(F.avg("median_income"), 0).alias("avg_median_income"),
+        )
+        .orderBy("avg_monthly_incidents", ascending=False)
         .limit(10)
     )
 
 except FileNotFoundError as e:
     print(f"⚠ {e}")
-    print("  crime_rate_per_1000 will be null.")
-    print("  Re-run this cell once Census data is available.")
+    print("  Proceeding without Census enrichment.")
     df_enriched = df_features
 
 except Exception as e:
-    print(f"⚠ Unexpected error during population join: {e}")
-    print("  Proceeding with null crime_rate_per_1000.")
+    print(f"⚠ Unexpected error: {e}")
+    import traceback
+    traceback.print_exc()
     df_enriched = df_features
 
 # COMMAND ----------
